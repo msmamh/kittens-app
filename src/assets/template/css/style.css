@@ -1,0 +1,478 @@
+
+/* body */
+body{
+    background-image: url(images/background.jpg);
+    background-repeat: repeat;
+}
+
+/* fonts */
+@font-face {
+    font-family: 'chalet';
+    src: url('./fonts/chalet/Chalet-NewYorkNineteenSeventy_10019.eot'); /* IE9 Compat Modes */
+    src:url('./fonts/chalet/Chalet-NewYorkNineteenSeventy_10019.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('./fonts/chalet/Chalet-NewYorkNineteenSeventy_10019.woff?59609429') format('woff'), /* Pretty Modern Browsers */
+    url('./fonts/chalet/Chalet-NewYorkNineteenSeventy_10019.woff2?59609429') format('woff2'), /* Super Modern Browsers */
+    url('./fonts/chalet/Chalet-NewYorkNineteenSeventy_10019.ttf?59609429') format('truetype'), /* Safari, Android, iOS */
+    url('./fonts/chalet/Chalet-NewYorkNineteenSeventy_10019.svg?59609429') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: 'ubuntu-bold';
+    src: url('./fonts/ubuntu/Ubuntu-Bold.eot'); /* IE9 Compat Modes */
+    src: url('./fonts/ubuntu/Ubuntu-Bold.eot?#iefix') format('embedded-opentype'),/* IE6-IE8 */
+    url('./fonts/ubuntu/Ubuntu-Bold.woff2') format('woff2'),/* Pretty Modern Browsers */
+    url('./fonts/ubuntu/Ubuntu-Bold.woff') format('woff'),/* Super Modern Browsers */
+    url('./fonts/ubuntu/Ubuntu-Bold.ttf') format('truetype'),/* Safari, Android, iOS */
+    url('./fonts/ubuntu/Ubuntu-Bold.svg#Ubuntu-Bold') format('svg');/* Legacy iOS */
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntu-regular';
+    src: url('./fonts/ubuntu/Ubuntu-Regular.eot');/* IE9 Compat Modes */
+    src: url('./fonts/ubuntu/Ubuntu-Regular.eot?#iefix') format('embedded-opentype'),/* IE6-IE8 */
+    url('./fonts/ubuntu/Ubuntu-Regular.woff2') format('woff2'),/* Pretty Modern Browsers */
+    url('./fonts/ubuntu/Ubuntu-Regular.woff') format('woff'),/* Super Modern Browsers */
+    url('./fonts/ubuntu/Ubuntu-Regular.ttf') format('truetype'),/* Safari, Android, iOS */
+    url('./fonts/ubuntu/Ubuntu-Regular.svg#Ubuntu') format('svg');/* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/* container */
+.container{
+    border: 1px solid #ffffff;
+    background-color: white;
+    border-radius: 1px;
+    -moz-border-radius:1px;
+    -webkit-border-radius: 1px;
+    content: "test";
+    max-width: 360px;
+    margin: auto;
+    padding-top: 2px;
+    padding-bottom: 18px;
+}
+
+.logo{
+    font-size:26px;
+    color: #fe4702;
+    float:left;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.logo-text{
+    font-family: "chalet";
+    margin-left: -10px;
+}
+
+
+.profile-pic {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border: 6px double #fe4702;
+    max-width: 53px;
+    height: 53px;
+    margin-right: 15px;
+    margin-top: 15px;
+    float: right;
+    overflow: hidden;
+    box-shadow: 0 0 6px rgba(0,0,0,0.8);
+    -moz-box-shadow: 0 0 6px rgba(0,0,0,0.8);
+    -webkit-box-shadow: 0 0 6px rgba(0,0,0,0.8);
+    -o-box-shadow: -10px 0 6px -5px rgba(0,0,0,0.8);
+
+}
+
+.profile-pic img {
+    width: 90px;
+    margin: -7px 0 0 -19px;
+}
+
+.compare-img {
+    display: -webkit-box;
+    position: unset;
+    background-color: white;
+    border-radius: 50%;
+    border: 6px double #fe4702;
+    width: 100px;
+    height: 100px;
+    margin-right: 36px;
+    margin-left: 28px;
+    float: right;
+    overflow: hidden;
+
+}
+
+.compare-img img {
+    width: 165px;
+    margin: -13px 0 0 -32px;
+}
+
+
+
+.card{
+    margin-top: 100px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.card-pic{
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border: 1px solid #dbdbdb;
+    border-radius: 1px;
+    overflow: hidden;
+}
+.card-pic img {
+    width: 488px;
+    margin: -10px 0 0 -81px;
+}
+.card-pic .info{
+    display: inline-block;
+    background-color: white;
+    height: 61px;
+    padding-top: 10px;
+    width: 100%;
+    margin-top: -18px;
+    overflow: hidden;
+}
+.card-pic .name{
+    margin-left: 10px;
+    font-family: 'ubuntu-bold';
+    font-size: 22px;
+}
+.card-pic .bio{
+    margin-left: 10px;
+    font-family: 'ubuntu-regular';
+    font-size: 13px;
+    color: 	#666674;
+    margin-top:3px;
+}
+
+.card-pic .more {
+    font-family: 'ubuntu-regular';
+    font-size: 13px;
+    color: 	#666674;
+    float: right;
+    margin-top: -29px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.buttons{
+    display: inline-flex;
+    margin: 20px 45px auto;
+
+}
+
+.buttons .dislike{
+    border: 2px solid #eaeaea;
+    margin-right: 20px;
+    margin-top:5px;
+    border-radius:  50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    color:red;
+    width: 55px;
+    font-size: 200%;
+    height: 55px;
+    cursor: pointer;
+}
+.buttons .like{
+    border: 2px solid #eaeaea;
+    margin-left: 20px;
+    margin-top: 7px;
+    border-radius:  50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    color: #a4e930;
+    font-size: 200%;
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+}
+
+
+.buttons .superlike{
+    border: 2px solid #eaeaea;
+    border-radius:  50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    font-size:345%;
+    color: #00ffff;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+}
+
+
+.like-stamp:after
+{
+    content: "LIKE";
+    position: absolute;
+    display: block;
+    top: 0px;
+    margin-top: 100px;
+    margin-left: 15px;
+    z-index: 1;
+    font-family: 'ubuntu-regular',sans-serif;
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+    font-size: 64px;
+    color: #9ddd13;
+    border: 3px solid #9ddd13;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    text-transform: uppercase;
+    zoom: 1;
+}
+
+
+.super-like-stamp:after
+{
+    content: "super like";
+    position: absolute;
+    display: block;
+    top: 0px;
+    margin-top: 100px;
+    margin-left: 52px;
+    z-index: 1;
+    font-family: 'ubuntu-regular',sans-serif;
+    -webkit-transform: rotate(-12deg);
+    -moz-transform: rotate(-12deg);
+    -ms-transform: rotate(-12deg);
+    -o-transform: rotate(-12deg);
+    transform: rotate(-12deg);
+    font-size: 65px;
+    max-width: 196px;
+    color: #00ffff;
+    border: 2px solid #00ffff;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    zoom: 1;
+    text-transform: uppercase;
+}
+
+
+
+.oops-stamp:after
+{
+    content: "oops";
+    position: absolute;
+    display: block;
+    top: 0px;
+    margin-top: 100px;
+    margin-left: 52px;
+    z-index: 1;
+    font-family: 'ubuntu-regular',sans-serif;
+    -webkit-transform: rotate(-12deg);
+    -moz-transform: rotate(-12deg);
+    -ms-transform: rotate(-12deg);
+    -o-transform: rotate(-12deg);
+    transform: rotate(-12deg);
+    font-size: 65px;
+    max-width: 196px;
+    color: #cabe33;
+    border: 2px solid #cabe33;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    zoom: 1;
+    text-transform: uppercase;
+}
+
+.overlay {
+    position: absolute;
+    margin: 0 auto;
+    display: none;
+    width: 362px;
+    height: 627px;
+    top: 8px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.90);
+    opacity: 0.9;
+    z-index: 2;
+}
+
+.overlay .kittens{
+    margin: 70px auto;
+}
+
+.kittens .my-kitten-name{
+    position: absolute;
+    font-family: 'ubuntu-regular',Arial;
+    font-size: 14px;
+    color: white;
+    margin-left: -138px;
+    margin-top: 16px;
+}
+
+.kittens .other-kitten-name{
+    position: absolute;
+    font-family: 'ubuntu-regular',Arial;
+    font-size: 14px;
+    color: white;
+    margin-top: 15px;
+    margin-left: 198px;
+}
+
+
+.overlay .ctn-btn-wrap{
+    display: block;
+    position:  absolute;
+    margin-top: 169px;
+    margin-left: 84px;
+
+}
+
+.ctn-btn-wrap .ctn-btn {
+    -webkit-border-radius: 34px;
+    -moz-border-radius: 34px;
+    border-radius: 34px;
+    color: #FFFFFF;
+    font-family: 'ubuntu-regular',Arial;
+    font-size: 21px;
+    font-weight: 100;
+    padding: 15px;
+    background-color: #FF4500;
+    border: solid #FFFFFF 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 13px;
+}
+
+.overlay .match-label{
+    font-family: 'ubuntu-bold',"Arial Black";
+    font-size: 35px;
+    text-align: center;
+    margin: auto;
+    color: white;
+    padding-top: 70px;
+    display: block;
+}
+
+@-webkit-keyframes rollOutLeft {
+    from {
+        opacity: 1;
+        -moz-opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+        moz-opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -45deg);
+        transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -45deg);
+    }
+}
+
+@keyframes rollOutLeft {
+    from {
+        opacity: 1;
+        -moz-opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+        -moz-opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -45deg);
+        transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -45deg);
+        -o-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -45deg);
+        -moz-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -45deg);
+        -ms-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -45deg);
+    }
+}
+
+.rollOutLeft {
+    -webkit-animation-name: rollOutLeft;
+    animation-name: rollOutLeft;
+    -moz-animation-name: rollOutLeft;
+    -o-animation-name: rollOutLeft;
+}
+
+
+@-webkit-keyframes rollOutRight {
+    from {
+        opacity: 1;
+        -moz-opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, -45deg);
+        -o-transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, -45deg);
+        -moz-transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, -45deg);
+        -ms-transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, -45deg);
+        transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, -45deg);
+    }
+}
+
+@keyframes rollOutRight {
+    from {
+        opacity: 1;
+        -moz-opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, -45deg);
+        -o-transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, -45deg);
+        -ms-transform:  translate3d(100%, 0, 0) rotate3d(0, 0, 1, -45deg);
+        -moz-transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, -45deg);
+        transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, -45deg);
+    }
+}
+
+.rollOutRight {
+    -webkit-animation-name: rollOutRight;
+    -o-animation-name: rollOutRight;
+    -moz-animation-name: rollOutRight;
+    animation-name: rollOutRight;
+}
+
+/* Shadows */
+.shadow-all {
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.9);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.9);
+    -o-box-shadow: -10px 0 10px -5px rgba(0,0,0,0.9);
+}
+
+.shadow-all-btn {
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.9);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.9);
+    -o-box-shadow: -10px 0 10px -5px rgba(0,0,0,0.9);
+}
+
+.block{
+    display: block;
+}
+
+.none{
+    display: none;
+}
+
+.msg-label{
+    font-size:18px;
+    text-align: center;
+    font-family: 'ubuntu-regular',sans-serif;
+}

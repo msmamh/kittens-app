@@ -1,7 +1,14 @@
-# KittensApp
+# Kittens-App // By Mohamed Husain
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3
+<br>
+It contains 2 Services ( one to get full data and second one to get one record only) and one main app component 
+<br><br>
+- Components has been developed purely in HTML5 + CSS3 including animations, stamps , layout , everything 
+- Animations done using Animate CSS3 library and the additional ones I have written them from scratch.
+  <br> No JS Required for animations WOW !! {template in src/assets/template}
 
+  
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

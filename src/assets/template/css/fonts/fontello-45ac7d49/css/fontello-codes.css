@@ -1,0 +1,6 @@
+
+.staricon-:before { content: '\e800';     margin-top: 9px; margin-left: 10px; } /* '' */
+.hearticon-:before { content: '\e801';  margin-top: 13px; margin-left: 12px; } /* '' */
+.cancelicon-:before { content: '\e802';  margin-top: 13px; margin-left: 12px; } /* '' */
+.info-circledicon-:before { content: '\f085'; } /* '' */
+.fireicon-:before { content: '\f525'; } /* '' */

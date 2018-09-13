@@ -1,7 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-
+import { KittensService } from './Services/kittens.service';
+import { KittenService } from './Services/kitten.service';
+import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 
 
@@ -10,9 +11,10 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpModule
   ],
-  providers: [],
+  providers: [KittensService, KittenService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
