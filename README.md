@@ -8,6 +8,9 @@ It contains 2 Services ( one to get full data and second one to get one record o
 - Animations done using Animate CSS3 library and the additional ones I have written them from scratch.
   <br> No JS Required for animations WOW !! {template in src/assets/template}
 
+## Instllation
+
+Run `npm install` to install all dependencies 
   
 ## Development server
 
