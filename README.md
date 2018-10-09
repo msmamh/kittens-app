@@ -1,5 +1,5 @@
 # Kittens-App // By Mohamed Husain
-A game for kids to match kittens
+A game for kids to match kittens.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3
 <br>
 It contains 2 Services ( one to get full data and second one to get one record only) and one main app component 
